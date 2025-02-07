@@ -74,3 +74,21 @@ The below is a sample with the correct values you can use to confirm your calcul
 * ❌ Submit any form of app, such as web APIs, browser, desktop, or command-line applications.
 * ❌ Add unnecessary layers of abstraction.
 * ❌ Add unnecessary patterns/ architectural features that aren’t called for e.g. persistent storage.
+# Shopping Cart Assignment
+
+A simple shopping cart application that allows users to  fetch prices, and calculate totals, tax, and final amounts.
+
+## Project Setup
+
+This project was built using JavaScript (Node.js), and the data is fetched from a mock API.
+
+## Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SaltmineSGBP/shopping-cart-assignment.git
+   cd shopping-cart-assignment

@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "Shopping cart assignment for interviews",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "serve-products": "json-server --watch db.json --port 3001"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "json-server": "^0.17.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
   }
 }
